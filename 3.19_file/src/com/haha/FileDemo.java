@@ -5,7 +5,7 @@ import java.io.IOException;
 
 public class FileDemo {
     public static void main(String[] args) throws IOException {
-        File file=new File("abc.txt");
+        File file=new File("ab.txt");
         file.createNewFile();
         File file1=new File("3.19_file\\abc.txt");
         file1.createNewFile();
